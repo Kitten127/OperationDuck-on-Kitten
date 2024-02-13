@@ -5,29 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Operation Duck-on-Kitten</title>
     <style>
-        @keyframes hearts {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-            100% { transform: translateY(0); }
-        }
-
-        @keyframes love {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0); }
-            50% { transform: translateY(-5px); }
-            100% { transform: translateY(0); }
-        }
-
         body {
             font-family: Garamond, serif;
             margin: 0;
             padding: 0;
-	    text-align: centre;
+	    text-align: center;
             background-color: #f0f0f0;
             overflow: hidden;
             position: relative;
@@ -57,6 +39,7 @@
         }
         main {
             padding: 20px;
+	    text-align: center;
         }
         footer {
             background-color: #fce6ec; /* pastel pink */
@@ -105,7 +88,7 @@
         <h1>The official website of Operation Duck-on-Kitten</h1>
     </header>
     
-    <nav class="float"> <!-- Applying float animation to navigation -->
+    <nav>
         <a href="index.html">Home</a>
         <a href="About.html">About</a>
         <a href="Art.html">Art</a>
@@ -114,10 +97,6 @@
     <main>
         <p>This website is dedicated to us and our memories.</p>
     </main>
-    
-    <!-- Heart Animation -->
-    <div class="heart"></div>
-
     <footer>
         <p>© 2024 Small Kitten Productions. All rights reserved.</p>
     </footer>
